@@ -1,1 +1,1 @@
-docker-compose -f ./docker-compose.yml exec django python manage.py migrate --noinput
+docker-compose -f ./docker-compose.yml exec web python manage.py migrate --noinput
